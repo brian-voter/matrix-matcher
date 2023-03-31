@@ -454,9 +454,6 @@ function startMatrixGrowth(startingInterval) {
         let color = (grown++ % 2 == 0 ? MATRIX_CELL_COLOR_1 : MATRIX_CELL_COLOR_2);
         el.style.backgroundColor = color;
 
-        //TODO: does this work?
-        el.style.boxShadow = "-2px 2px 4px";
-
         lastGrowth = Date.now();
         lastPos = calcRandomWalk(lastPos);
 
