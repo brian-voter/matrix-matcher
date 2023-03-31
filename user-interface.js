@@ -188,7 +188,7 @@ function renderText(text, centerPosition, removeAfterMillis, fontSizeString, sta
       if (currentLink != null) {
         letter.innerHTML = letter.innerHTML + "<a href=\"" + currentLink + "\" target=\"_blank\">" + insertText + "</a>";
       } else {
-        letter.innerText = insertText;
+        letter.innerHTML = insertText;
       }
       if (fontSizeString != undefined) {
         letter.style.fontSize = fontSizeString;
