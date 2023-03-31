@@ -184,7 +184,7 @@ function renderText(text, centerPosition, removeAfterMillis, fontSizeString, sta
       letter.setAttribute("class", "renderedLetter");
       letter.style.zIndex = zIndex--;
       letter.style.pointerEvents = pointerEvents;
-      let insertText = c == ' ' ? 'ㅤ' : c;
+      let insertText = c == ' ' ? '&nbsp;' : c;
       if (currentLink != null) {
         letter.innerHTML = letter.innerHTML + "<a href=\"" + currentLink + "\" target=\"_blank\">" + insertText + "</a>";
       } else {
