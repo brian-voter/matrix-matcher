@@ -17,10 +17,10 @@ const GROWTH_INTERVAL_MULTIPLIER_DEFAULT = 0.8;
 
 const CREDITS_TEXT = "Game: Brian Voter, 2023 <brian-voter.github.io>\n" +
   "Music: MORPHODER GROOVE by BOCrew (c)\n" +
-  "'Hacked' Font by David Libeau <https://hackedfont.com/>\n" +
+  "'Hacked' Font by David Libeau <hackedfont.com/>\n" +
   "Interface Sound Effect by UNIVERSFIELD of <pixabay.com>\n" +
   "Other Sounds Effects: <pixabay.com>.";
-const CREDITS_LINKS = ["https://brian-voter.github.io", "hackedfont.com/",
+const CREDITS_LINKS = ["https://brian-voter.github.io", "https://hackedfont.com/",
   "http://pixabay.com", "http://pixabay.com"];
 
 class GAME_STATE {
